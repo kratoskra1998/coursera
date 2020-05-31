@@ -1,0 +1,154 @@
+body {
+  font-size: 16px;
+  color: red;
+  background-color: gray;
+  font-family: sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: black;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #FF0000;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list a, span {
+  text-align: center;
+} 
+
+#collapsable-nav.collapse.navbar-collapse {
+  padding :20px;
+  margin-right: 10px;
+}
+
+/*main-content*/
+.container-fluid {
+  padding: 0;
+}
+
+.jumbotron {
+  border: 0;
+  border-radius: 0;
+  opacity: .9;
+  padding: 25px;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  color: black;
+  font-family: lora;
+  text-shadow: 1px 1px 1px #222;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.container {
+  background-color: #c2d6d6;
+  padding: 15px;
+  margin-top: 40px;
+  width: 100%;
+
+}
+
+#box2.container {
+  background-color: #ccb3ff;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+#box3.container {
+  background-color: white;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+.container h4 {
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: lora;
+  line-height: .75;
+  text-shadow: 2px 2px 4px #000000;
+  padding-bottom: 25px;
+
+}
+
+.container p {
+  color: black;
+  font-family: sans-serif;
+  font-size: 0.7em;
+}
+
+.container #text2 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: lora;
+  line-height: .75;
+  text-shadow: 2px 2px 4px #000000;
+  padding-bottom: 25px;
+
+}
+
+.container #text3 {
+  color: green;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: lora;
+  line-height: .75;
+  text-shadow: 2px 2px 4px #000000;
+  padding-bottom: 25px;
+
+}
+
+@media (min-width: 768px and max-width: 1200px) { 
+
+}
+
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 20px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    color: red;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+    color: white;
+  }
+
+button.navbar-toggle {
+  padding: 10px;
+  margin: 25px;
+}
